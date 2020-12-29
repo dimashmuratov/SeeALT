@@ -28,6 +28,10 @@ li {
     flex-wrap: wrap;
 }
 
+.padding-section-5 {
+    padding: 5px;
+}
+
 
 /*           Header              */
 
@@ -44,7 +48,6 @@ li {
 
 .first-nav{
     justify-content: space-between;
-    /* background: #F2F2F2; */
     height: 3.9375rem;
     align-items: center;
     width: 100%;
@@ -131,20 +134,24 @@ input :active, :hover, :focus {
 
 li {
     display: block;
-    padding: 1rem;
+    padding: 0.4rem;
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
+}
+
+.dropdown > a{
+    color: white !important;
 }
 
 ul li ul {
     background: #4CC8E5;
     visibility: hidden;
     opacity: 0;
-    min-width: 54.585826771653544vh;
+    min-width: 36vh;
     position: absolute;
     transition: all 0.5s ease;
-    margin-top: 1rem;
+    margin-top: 1.4rem;
     left: 0;
     display: none;
 }
@@ -159,10 +166,6 @@ ul li ul:hover {
 ul li ul li {
     clear: both;
     width: 100%;
-}
-
-.hover-catalog:hover {
-    color: #4CC8E5;
 }
 
 
@@ -235,6 +238,7 @@ ul li ul li {
 
 .text-center-cart {
     text-align: center;
+    padding: 0 0 15px 0;
 }
 
 .span-cart-head {
@@ -246,6 +250,7 @@ ul li ul li {
     font-size: 16px;
     color: #184954;
     font-weight: 700;
+    letter-spacing: 1.4px;
 }
 
 /*           3 Section              */
@@ -277,6 +282,10 @@ details[open] summary span {
 
 .more-read {
     cursor: pointer;
+}
+
+.read-more {
+    border-bottom: 1px solid #707070;
 }
 
 .main-text {
@@ -330,6 +339,57 @@ details[open] summary span {
 .margin-50 > span {
     margin-left: 35px;
 }
+
+/*           5 Section              */
+
+.flex-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-flex {
+    display: flex;
+    padding: 15px 15px 15px 0;
+}
+
+.date-color {
+    color: #AAAAAA;
+}
+
+.h3-color {
+    color: #184954;
+}
+
+.author-name {
+    margin-top: 20px;
+    color: #878787;
+}
+
+.trim {
+    display: flex;
+    border: 1px solid #D9D9D9;
+    height: auto;
+    width: auto;
+    margin: 100px 20px 100px 0;
+}
+
+.train {
+    display: flex;
+}
+
+.rrr {
+    width: 346px;
+}
+
+.margin-section-4 {
+    margin-top: 10px;
+}
+
+.img-rrr > img {
+    padding: 15px;
+}
+
+
 
 /*           Footer              */
 
@@ -385,7 +445,8 @@ details[open] summary span {
 .flexbox-footer {
     display: flex;
     justify-content: space-between;
-    padding-top: 90px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     flex-wrap: wrap;
 }
 
@@ -496,6 +557,8 @@ details[open] summary span {
 .flex-contacts {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 90px;
+    flex-wrap: wrap;
 }
 
 .flex-contacts > p {
@@ -511,12 +574,37 @@ details[open] summary span {
     margin-bottom: 0;
 }
 
+.map {
+    width: 100%;
+    text-align: center;
+}
+
+.flex-contacts-us {
+    display: flex;
+}
+
+.contacts-img > img {
+    margin-right: 20px;
+}
+
+.img-margin {
+    margin-top: 10px;
+}
+
+.border-bottom-class {
+    border-bottom: 1px solid #90ABB1;
+}
+
 /*               About us              */
 
 .about-us-img {
     width: 100%;
     text-align: center;
     margin-top: 120px;
+}
+
+.btn-right-left > img{
+    width: 2.5rem;
 }
 
 .about-us-h1 {
@@ -636,4 +724,8 @@ details[open] summary span {
 .continue-shop > a {
     color: #4CC8E5;
     border-bottom: 1px solid #4CC8E5;
+}
+
+.partners-margin {
+    padding-top: 100px;
 }

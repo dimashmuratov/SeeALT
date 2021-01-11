@@ -744,12 +744,11 @@ details[open] summary span {
 .flex-purchase {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 7px 0 0 0;
     align-items: center;
     border: 2px solid #D9D9D9;
     letter-spacing: 2px;
+    justify-content: space-evenly;
 }
 
 .h4-pur {
@@ -770,8 +769,16 @@ details[open] summary span {
     display: flex;
 }
 
+.img-pur {
+    width: 20%;
+}
+
+.img-pur > img{
+    width: 95%;
+}
+
 .p16-size {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .flex-plus-minus {
@@ -788,16 +795,12 @@ details[open] summary span {
 }
 
 .trash {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .flex-price {
     display: flex;
     justify-content: space-between;
-}
-
-.second-div-margin {
-    margin-left: 50px;
 }
 
 .third-div-margin {
@@ -815,5 +818,184 @@ details[open] summary span {
 }
 
 .summa-zakaza {
-    width: 25.188rem;
+    width: 15.9rem;
+    margin-left: 50px;
+    height: 26rem;
+    padding: 30px;
+    margin-bottom: 50px;
+    border: 1px solid #D9D9D9;
+    background-color: #F3F3F3;
+}
+
+.flex-purchase-p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.class-h3 {
+    text-transform: uppercase;
+}
+
+.summa-total {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.delivery-total {
+    color: #184954;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.grey-class {
+    color: #A2A3A4;
+    font-size: 14px;
+}
+
+.text-center {
+    margin-top: 30px;
+}
+
+.flex-purchase-div-four {
+    display: flex;
+}
+
+.last-box {
+    margin-bottom: 50px;
+}
+
+.medium-box {
+    margin-top: 50px;
+}
+
+.flex-purchase-2 {
+    flex-wrap: wrap;
+    padding: 15px 0 50px 60px;
+    align-items: center;
+    border: 2px solid #D9D9D9;
+    margin-bottom: 50px;
+    
+}
+
+.btn {
+    padding: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #4CC8E5;
+    color: white;
+    text-transform: uppercase;
+}
+
+.flex-input {
+    display: flex;
+}
+
+.flex-purchase-2 > hr {
+    width: 90%;
+    background: #D9D9D9;
+    margin-right: 80px;
+}
+
+.margin-nol {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.flex-input-last {
+    margin-bottom: 50px;
+}
+
+.text-size-16 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.header-1 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+input[type="checkbox" i] {
+    border: 1px solid #E5E4E4;
+    color: #E5E4E4;
+    box-sizing: border-box;
+    margin: 3px 15px 0 4px;
+}
+
+input[type="text" i] {
+    border: 1px solid #E5E4E4;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 3px 15px 0 4px;
+}
+
+input[type="number" i] {
+    border: 1px solid #E5E4E4;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="tel" i] {
+    border: 1px solid #E5E4E4;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="e-mail" i] {
+    border: 1px solid #E5E4E4;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 3px 15px 0 4px;
+}
+
+.input-width {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.input-width-p {
+    display: flex;
+    height: 50px;
+    margin-top: 3px;
+}
+
+.input-width > input {
+    width: 100%;
+    height: 50px;
+}
+
+.input-width-in {
+    width: 40px;
+}
+
+.margin-input {
+    margin-bottom: 20px;
+}
+
+.margin-right-344 {
+    margin-right: 15px;
+    width: 310px;
+}
+
+.option-select {
+    width: 100%;
+    margin: 0 10px 0 0;
+    border: 1px solid #E5E4E4;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 50px;
+    margin-top: 3px;
 }

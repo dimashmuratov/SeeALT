@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/script.js"></script>
 
     </head>
 
@@ -204,24 +205,38 @@
                         <h1 class="header-1">Данные карты</h1>
                     </div>
                     <hr>
-                    <div>
-                        <div>
-                            <img src="img/card-1.png"/>
-                            
+                    <div class="flex-card">
+                        <div class="width-ttt">
+                            <div class="card-tyt">
+                                <p>Номер карты *</p>
+                                <input name="credit-number" class="cc-number" type="tel" pattern="\d*" maxlength="19" placeholder="Card Number"/>
+                            </div>
+                            <div class="flex-card-rrr">
+                                <div>
+                                    <p>Держатель карты *</p>
+                                    <input type="text" placeholder="ФАМИЛИЯ ИМЯ">
+                                </div>
+                                <div>
+                                    <p>Срок действия *</p>
+                                    <input name="credit-expires" class="cc-expires" type="tel" pattern="\d*" maxlength="7" placeholder="мм/гг">
+                                </div>
+
+                            </div>
                         </div>
-                        <div>
-                            <img src="img/card-2.png"/>
+                        <div class="width-ttt">
+                            <p>CVV *</p>
+                            <input type="tel" maxlength="3" placeholder="000">
                         </div>
                     </div>
-                    <div>
-                        <div class="flex-input margin-input">
-                            <input type="checkbox" />
-                            <p class="margin-nol">Сохранить карту</p>
-                        </div>
                         <div>
-                            <a href="" class="btn">Продолжить</a>
+                            <div class="flex-input margin-input">
+                                <input type="checkbox" />
+                                <p class="margin-nol">Сохранить карту</p>
+                            </div>
+                            <div>
+                                <a href="" class="btn">Продолжить</a>
+                            </div>
                         </div>
-                    </div>
                 </div>
 
 
